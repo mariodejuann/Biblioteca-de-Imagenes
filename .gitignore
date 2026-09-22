@@ -1,0 +1,22 @@
+# Compilados
+bin/
+*.class
+*.jar
+
+# Excepción: sí queremos versionar la librería externa
+!lib/commons-imaging-1.0-alpha3.jar
+
+# Javadoc generado (se puede regenerar con Eclipse o javadoc)
+doc/
+
+# Imágenes generadas por la propia aplicación en tiempo de ejecución
+imagenes-generadas/
+
+# Configuración local de Eclipse
+.settings/
+.project
+.classpath
+
+# Sistema
+.DS_Store
+Thumbs.db
